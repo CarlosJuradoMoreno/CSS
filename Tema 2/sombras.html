@@ -1,0 +1,265 @@
+<html>
+<head>
+	<title>Sobras</title>
+	<style type="text/css">
+		/* http://meyerweb.com/eric/tools/css/reset/ 
+	   v2.0 | 20110126
+	   License: none (public domain)
+	*/
+
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	h2{
+		font-weight: bold;
+		font-size: 40px;
+	}
+
+	div{
+		width: 200px;
+		height: 100px;
+		display: inline-block;
+		background-color: #b3b3ff;
+		margin: 20px;
+		text-align: center;
+		}
+		#contenedor{
+			background-color: white;
+			width: 800px;
+			margin: 0px;
+		}
+
+	#diva{
+		box-shadow: -5px -5px #999;			/*	x , y	*/
+	}
+
+	#divb{	
+		box-shadow: -5px -5px  3px #999;	/*	x , y, degradado	*/
+	}
+	#divc{
+		box-shadow: -5px -5px  0px 5px #999;	/*	x , y, degradado, z	*/
+	}
+	#divd{
+		box-shadow: -10px -10px 5px -5px #999;	
+	}
+
+	#dive{
+		box-shadow: 0px 0px 5px 2px #999;	
+	}
+	#divf{
+		box-shadow: 0px 0px 11px 10px #999;	
+	}
+	#divg{
+
+		box-shadow: -5px -5px 0px 5px #999 inset;	
+	}
+	#divh{
+
+		box-shadow: -5px -5px 5px 5px #999 inset;	
+	}
+	#divi{
+
+		box-shadow: -5px -5px 0px 5px #999 inset;	
+	}
+	#divj{
+
+		box-shadow: -5px -5px 5px 10px #999 inset;	
+	}
+	#divk{
+
+		box-shadow: 0px 0px 5px 5px #999 inset;	
+	}
+	#divl{
+
+		box-shadow: 0px 0px 5px 10px #999 inset;	
+	}
+	/*BORDES*/
+	#bordes{
+		background-color: white;
+		width: auto;
+		height: auto;
+	}
+	#bordes div{
+		background-color: #cc9966;
+		font-size: 30px;
+		font-weight: bold;
+		color: white;
+	}
+	#bordea{
+		border-radius: 0px 0px 80px 0px;
+	}
+	#bordeb{
+		border-bottom-right-radius: 80px 30px;
+	}
+	#bordec{
+		border-bottom-right-radius: 30px 80px;
+	}
+	#borded{
+		border-top-left-radius: 20px 20px;
+		border-bottom-left-radius: 90px 90px;
+		border-top-right-radius: 90px 90px;
+		border-bottom-right-radius: 20px 20px;
+	}
+	#bordee{
+		border-top-left-radius: 20px 10px;
+		border-bottom-left-radius: 10px 20px;
+		border-top-right-radius: 10px 20px;
+		border-bottom-right-radius: 20px 10px;
+	}
+	#bordef{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+	/*TEXTO*/
+
+	#texto{
+		background-color: white;
+		width: auto;
+		height: auto;
+	}
+	#texto p{
+		margin: 4px;
+		font-size: 20px;
+	}
+
+	#texto2{
+		color: white;
+		text-shadow: 0px 0px 3px #e600e6;
+	}
+	#texto3{
+
+		text-shadow: -3px -3px 5px #e600e6, 10px 3px 5px   #33cc33, 3px 3px 5px  #3385ff;
+
+	}
+	#texto4{
+		background-color: grey;
+		color: grey;
+		text-shadow: 0px 0px 1px black;
+	}
+	#texto5{
+		background-color: grey;
+		color: gray;
+		text-shadow: 0px 0px 1px white;
+	}
+	#texto6{
+		background-color: grey;
+		color: grey;
+		text-shadow: -1px 0px 1px black,  1px 0px 1px white;	/*Sensacion de profundidad*/
+	}
+	</style>
+</head>
+
+
+
+
+<body>
+	<h2> Mis Primeras Sombras</h2>
+<div id="contenedor">
+	<div id="diva">
+		A
+	</div>
+
+	<div id="divb">
+		B
+	</div>
+
+	<div id="divc">
+		C
+	</div>
+
+	<div id="divd">
+		D
+	</div>
+
+	<div id="dive">
+		E
+	</div>
+
+	<div id="divf">
+		F
+	</div>
+
+	<div id="divg">
+		G
+	</div>
+
+	<div id="divh">
+		H
+	</div>
+
+	<div id="divi">
+		I
+	</div>
+
+	<div id="divj">
+		J
+	</div>
+	<div id="divk">
+		K
+	</div>
+	<div id="divl">
+		L
+	</div>
+
+
+	<div id="bordes">
+		<div id="bordea">A</div>
+		<div id="bordeb">B</div>
+		<div id="bordec">C</div>
+		<div id="borded">D</div>
+		<div id="bordee">E</div>
+		<div id="bordef">F</div>
+	</div>
+
+	<div id="texto">
+		<p id="texto1">La sombra de texto fueron definidas en 1997</p>
+		<p id="texto2">La sombra de texto fueron definidas en 1997</p>
+		<p id="texto3">La sombra de texto fueron definidas en 1997</p>
+		<p id="texto4">La sombra de texto fueron definidas en 1997</p>
+		<p id="texto5">La sombra de texto fueron definidas en 1997</p>
+		<p id="texto6">La sombra de texto fueron definidas en 1997</p>
+	</div>
+</div>
+</body>
+</html>
